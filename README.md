@@ -16,8 +16,8 @@
       function draw() {
         stroke("black");
         strokeWeight(0.1);
-        for (y = 0; y < 180; y += 20) {
-          for (x = 0; x < 320; x += 20) {
+        for (let y = 0; y < 180; y += 20) {
+          for (let x = 0; x < 320; x += 20) {
            fill(`oklch(75% 50% ${h})`);
            rect(x+5, y+5, 180, 120);
           }
