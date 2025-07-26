@@ -17,9 +17,9 @@
         stroke("black");
         strokeWeight(0.1);
         for (y = 0; y < 180; y += 10) {
-    for (x = 0; x < 320; x += 10) {
+    for (x = 0; x < 320; x += 20) {
       fill(`oklch(90% ${100 - x / 3.2}% ${y * 2})`);
-      rect(x + 100, y + 100, 100, 100);
+      rect(x + 10, y + 10, 100, 100);
         }
        }   
       }
