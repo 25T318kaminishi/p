@@ -16,9 +16,10 @@
       function draw() {
         stroke("black");
         strokeWeight(0.1);
-        for (let i = 0; i < totalRects; i++) {
-    const t = i / (totalRects - 1);
-           
+        for (y = 0; y < 180; y += 10) {
+    for (x = 0; x < 320; x += 10) {
+      fill(`oklch(90% ${100 - x / 3.2}% ${y * 2})`);
+      ellipse(x + 5, y + 5, 8, 8);   
           }
         }
       }
