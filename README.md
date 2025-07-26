@@ -17,9 +17,10 @@
         stroke("black");
         strokeWeight(0.1);
         for (let y = 0; y < 180; y += 20) {
-          for (let x = 0; x < 320; x += 20) {
-           fill(`hsl(340 75% 50% ${h})`);
-           rect(x, y, x, y);
+          for (let x = 0; x < 180; y += 20) {
+          fill(`oklch(90% ${100 - x / 3.2}% ${y * 2})`);
+      ellipse(x + 5, y + 5, 8, 8); 
+           rect(5, 5, 5, 5);
           }
         }
       }
