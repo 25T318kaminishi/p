@@ -16,9 +16,8 @@
       function draw() {
         stroke("black");
         strokeWeight(0.1);
-        for (let y = 0; y < 180; y += 20) {
-          for (let x = 0; x < 320; y += 20) {
-          rect(x, y); 
+        for (let i = 0; i < totalRects; i++) {
+    const t = i / (totalRects - 1);
            
           }
         }
