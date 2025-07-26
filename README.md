@@ -18,7 +18,6 @@
         strokeWeight(0.1);
         for (y = 0; y < 180; y += 10) {
           for (x = 0; x < 320; x += 10) {
-           fill("orange")
            rect(200, 100, 180, 120);
           }
         }
