@@ -16,7 +16,7 @@
       function draw() {
         stroke("black");
         strokeWeight(0.1);
-        elipse(200, 100, 180, 120);
+        ellipse(200, 100, 180, 120);
         // ここに図形を描画するコードを追加
       }
     </script>
