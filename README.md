@@ -17,9 +17,8 @@
         stroke("black");
         strokeWeight(0.1);
         for (let y = 0; y < 180; y += 20) {
-          for (let x = 0; x < 180; y += 20) {
-          fill(`oklch(90% ${100 - x / 3.2}% ${y * 2})`);
-          ellipse(x + 5, y + 5, 8, 8); 
+          for (let x = 0; x < 320; y += 20) {
+          rect(x, y); 
            
           }
         }
